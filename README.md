@@ -5,9 +5,10 @@
 This Billing System is a C++ application designed to handle basic billing and inventory management tasks. The program allows users to update inventory, generate bills for customers, and calculate change to be returned. It uses file handling to store and retrieve inventory and billing information.
 
 ## Features
-1.Update Inventory: Add new items to the inventory, including item name, rate, and quantity.
+### 1.Update Inventory:
+Add new items to the inventory, including item name, rate, and quantity.
 
-2.Generate Bill:
+### 2.Generate Bill:
 
  --Add items to the bill based on the inventory.
 
@@ -15,41 +16,43 @@ This Billing System is a C++ application designed to handle basic billing and in
 
  --Save bill details to a file.
 
-3.Calculate Change: Determine the change to be returned to the customer based on the cash provided.
+### 3.Calculate Change: 
+Determine the change to be returned to the customer based on the cash provided.
 
-4.File Handling:
+### 4.File Handling:
 
 -Inventory data is stored in inventory.txt.
 
 -Bill details are stored in Bill.txt.
 
-5.User-Friendly Interface: A simple menu-driven interface to navigate through different features.
+### 5.User-Friendly Interface: 
+A simple menu-driven interface to navigate through different features.
 
 ## How It Works
 
 ### 1. Update Inventory
 
-Select the option to update inventory.
+-Select the option to update inventory.
 
-Enter the item name, rate, and quantity.
+-Enter the item name, rate, and quantity.
 
-The item is added to inventory.txt.
+-The item is added to inventory.txt.
 
 ### 2. Generate Bill
 
-Select the option to generate a bill.
+-Select the option to generate a bill.
 
-Add items to the bill by specifying their name and quantity.
+-Add items to the bill by specifying their name and quantity.
 
-The system checks inventory availability:
+-The system checks inventory availability:
 
-If the item is available, it calculates the cost and updates the inventory.
+-If the item is available, it calculates the cost and updates the inventory.
 
-If the item is out of stock, it notifies the user.
+-If the item is out of stock, it notifies the user.
 
-Save the bill details in Bill.txt.
+-Save the bill details in Bill.txt.
 
-Optionally, calculate the change to be returned to the customer.
+-Optionally, calculate the change to be returned to the customer.
 
 ### 3. Exit
 
@@ -59,9 +62,9 @@ Exit the program safely.
 
 #### Class bill:
 
-Private members for item name, rate, and quantity.
+-Private members for item name, rate, and quantity.
 
-Public methods for getters, setters, and main functionalities.
+-Public methods for getters, setters, and main functionalities.
 
 #### Main Menu:
 
