@@ -1,0 +1,4 @@
+Cerearl : 120 : 0
+Kellogs : 200 : 0
+soap : 5 : 1
+Juice : 10 : 0
